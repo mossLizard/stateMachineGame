@@ -11,7 +11,7 @@ class mechTrans():
   conditionType = "None"
   conditionVar = "A"
 
-class mechstate():
+class mechState():
   name = "STATE"
   symbol = "salt"
   isVital = False # cannot be removed, can be edited.
