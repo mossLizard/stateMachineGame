@@ -5,6 +5,7 @@ import tkinter.ttk as ttk
 from util import * # reusing a vec2 thing I made for a previous project
 
 from mechParts import *
+from uiParts import *
 
 
 if __name__ == "__main__"  :
