@@ -1,6 +1,26 @@
 import tkinter as tk
 #from util import *
 
+
+class solution():
+  name = ""
+  puzzlePath = ""
+  solutionSubPath = ""
+  def __init__(self, path = "", subPath = ""):
+    pass
+
+class puzzle():
+  name = ""
+  path = ""
+  def __init__(self, path = "", isDummy = False, isResponsive = False):
+    self.isDummy = isDummy
+    if isDummy:
+      self.name = "dummy"
+      self.path = None
+      self.isResponsive = isResponsive
+  def genTestCase(self, index, ofset, delay):
+    return {"NYI"}
+
 class mechTrans():
   origin = "" # state name
   destination = ""

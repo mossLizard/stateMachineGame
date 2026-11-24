@@ -2,7 +2,7 @@ from mechParts import *
 
 class machine():
   currentState = None
-  puzzle = puzzle("dummy") #dummy puzzle
+  puzzle = puzzle(isDummy = True) #dummy puzzle
   allStates = {}
   allTransitions = {}
   mechParameters = {}
@@ -12,14 +12,13 @@ class machine():
     print("Moving transition", oldOrigin, ":", transIndex)
     if type(destination) == "string":
       print(" Assigning DESTINATION", destination)
-    elif type(origin) == "string"):
+    elif type(origin) == "string":
       print("  Assigning ORIGN", origin)
-
-  def 
-
+      
   def setParamsFromState(self, stateName):
-    
+    pass
     
     
   def takeStep():
+    pass
     # get current state
